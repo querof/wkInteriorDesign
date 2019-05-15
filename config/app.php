@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'debug' => true,
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost/wk',
+    'url' => env('APP_URL', 'http://localhost/wk'),
 
     /*
     |--------------------------------------------------------------------------
@@ -101,7 +101,7 @@ return [
     |
     */
 
-    'key' => 'rRV4eSmJJZq0X1d5rGJFny4A7NMcC8dw',
+    'key' => env('APP_KEY', ''),
 
     'cipher' => 'AES-256-CBC',
 

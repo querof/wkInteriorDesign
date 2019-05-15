@@ -9,19 +9,19 @@ tabs:
       tab: Info
       label: Website Name
       type: text
-      default: Octaskin
+      default: W.K. Interior Design
 
     website_author:
       tab: Info
       label: Author
       type: text
-      default: Laratify
+      default: Frank Quero
 
     website_url:
       tab: Info
       label: URL
       type: text
-      default: "http://demo.laratify.dev/octobercms/?theme=octaskin"
+      default: "https://www.linkedin.com/in/querof/?locale=en_US"
 
     description:
       tab: Info
