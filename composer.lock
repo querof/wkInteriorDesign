@@ -631,16 +631,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.7",
+            "version": "2.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "709f21f92707308cdf8f9bcfa1af4cb26586521e"
+                "reference": "c26463ff9241f27907112fbcd0c86fa670cfef98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/709f21f92707308cdf8f9bcfa1af4cb26586521e",
-                "reference": "709f21f92707308cdf8f9bcfa1af4cb26586521e",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/c26463ff9241f27907112fbcd0c86fa670cfef98",
+                "reference": "c26463ff9241f27907112fbcd0c86fa670cfef98",
                 "shasum": ""
             },
             "require": {
@@ -684,7 +684,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2018-12-04T22:38:24+00:00"
+            "time": "2019-05-16T22:02:54+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -1314,16 +1314,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.51",
+            "version": "1.0.52",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "755ba7bf3fb9031e6581d091db84d78275874396"
+                "reference": "c5a5097156387970e6f0ccfcdf03f752856f3391"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/755ba7bf3fb9031e6581d091db84d78275874396",
-                "reference": "755ba7bf3fb9031e6581d091db84d78275874396",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/c5a5097156387970e6f0ccfcdf03f752856f3391",
+                "reference": "c5a5097156387970e6f0ccfcdf03f752856f3391",
                 "shasum": ""
             },
             "require": {
@@ -1394,7 +1394,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2019-03-30T13:22:34+00:00"
+            "time": "2019-05-20T20:21:14+00:00"
         },
         {
             "name": "linkorb/jsmin-php",
@@ -1686,16 +1686,16 @@
         },
         {
             "name": "october/backend",
-            "version": "v1.0.454",
+            "version": "v1.0.455",
             "source": {
                 "type": "git",
                 "url": "https://github.com/octoberrain/backend.git",
-                "reference": "a1592533b2b0287d60cbca793855331b74a1548f"
+                "reference": "28cb4d58c5236c0f9d9c6f3a69537c355a3718b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/octoberrain/backend/zipball/a1592533b2b0287d60cbca793855331b74a1548f",
-                "reference": "a1592533b2b0287d60cbca793855331b74a1548f",
+                "url": "https://api.github.com/repos/octoberrain/backend/zipball/28cb4d58c5236c0f9d9c6f3a69537c355a3718b9",
+                "reference": "28cb4d58c5236c0f9d9c6f3a69537c355a3718b9",
                 "shasum": ""
             },
             "require": {
@@ -1741,11 +1741,11 @@
                 "october",
                 "october cms"
             ],
-            "time": "2019-05-04T01:08:12+00:00"
+            "time": "2019-05-14T19:09:48+00:00"
         },
         {
             "name": "october/cms",
-            "version": "v1.0.454",
+            "version": "v1.0.455",
             "source": {
                 "type": "git",
                 "url": "https://github.com/octoberrain/cms.git",
@@ -1804,16 +1804,16 @@
         },
         {
             "name": "october/rain",
-            "version": "v1.0.454",
+            "version": "v1.0.455",
             "source": {
                 "type": "git",
                 "url": "https://github.com/octobercms/library.git",
-                "reference": "997d644060da1185830d9ab050d7835fbf4e2277"
+                "reference": "9d066e184b41ffa3429346f0b50790d4e2eaaaa4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/octobercms/library/zipball/997d644060da1185830d9ab050d7835fbf4e2277",
-                "reference": "997d644060da1185830d9ab050d7835fbf4e2277",
+                "url": "https://api.github.com/repos/octobercms/library/zipball/9d066e184b41ffa3429346f0b50790d4e2eaaaa4",
+                "reference": "9d066e184b41ffa3429346f0b50790d4e2eaaaa4",
                 "shasum": ""
             },
             "require": {
@@ -1899,20 +1899,20 @@
                 "october",
                 "rain"
             ],
-            "time": "2019-05-03T23:06:14+00:00"
+            "time": "2019-05-10T13:47:17+00:00"
         },
         {
             "name": "october/system",
-            "version": "v1.0.454",
+            "version": "v1.0.455",
             "source": {
                 "type": "git",
                 "url": "https://github.com/octoberrain/system.git",
-                "reference": "9615bc4d842228c07c4c62f97b0d60cb9ffdeb08"
+                "reference": "7a5b57b33b48498d6a2eb714548822794091395d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/octoberrain/system/zipball/9615bc4d842228c07c4c62f97b0d60cb9ffdeb08",
-                "reference": "9615bc4d842228c07c4c62f97b0d60cb9ffdeb08",
+                "url": "https://api.github.com/repos/octoberrain/system/zipball/7a5b57b33b48498d6a2eb714548822794091395d",
+                "reference": "7a5b57b33b48498d6a2eb714548822794091395d",
                 "shasum": ""
             },
             "require": {
@@ -1958,7 +1958,7 @@
                 "october cms",
                 "system"
             ],
-            "time": "2019-05-03T15:51:44+00:00"
+            "time": "2019-05-11T00:30:52+00:00"
         },
         {
             "name": "oyejorge/less.php",
@@ -3515,16 +3515,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.9.0",
+            "version": "v2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "82a1c055c8ed4c4705023bfd0405f3c74db6e3ae"
+                "reference": "5240e21982885b76629552d83b4ebb6d41ccde6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/82a1c055c8ed4c4705023bfd0405f3c74db6e3ae",
-                "reference": "82a1c055c8ed4c4705023bfd0405f3c74db6e3ae",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/5240e21982885b76629552d83b4ebb6d41ccde6b",
+                "reference": "5240e21982885b76629552d83b4ebb6d41ccde6b",
                 "shasum": ""
             },
             "require": {
@@ -3540,7 +3540,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.9-dev"
+                    "dev-master": "2.10-dev"
                 }
             },
             "autoload": {
@@ -3578,7 +3578,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-04-28T06:57:38+00:00"
+            "time": "2019-05-14T12:03:52+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

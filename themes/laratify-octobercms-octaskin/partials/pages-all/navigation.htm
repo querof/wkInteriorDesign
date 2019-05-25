@@ -4,17 +4,31 @@
 <div class="nav-wrapper">
 <div class="lt-container container"><a class="brand-logo white-text" href="{{ 'home'|page }}">W.K. Interior Design</a> <a class="lt-mobile-toggle button-collapse" href="#" data-activates="mobile-menu"><em class="material-icons">menu</em></a>
 <ul class="right hide-on-med-and-down">
-<li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
-<li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
-<li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">Portfolio</a></li>
-<li class="{% if this.page.id == 'contact' %}active{% endif %}"><a href="{{ 'contact'|page }}">Contact</a></li>
+<li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">{{ 'Home'|_ }}</a></li>
+<li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">{{ 'About'|_ }}</a></li>
+<li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">{{ 'Portfolio'|_ }}</a></li>
+<li class="{% if this.page.id == 'contact' %}active{% endif %}"><a href="{{ 'contact'|page }}">{{ 'Contact'|_ }}</a></li>
+<li>
+    <div class="lt-col col m1 s2">|</div>
+    <div class="lt-col col m3 s2"><a href="/en" data-request="onSwitchLocale" data-request-data="locale: 'en'">{{ 'en'|_ }}</a></div>
+    <div class="lt-col col m3 s2"><a href="/es" data-request="onSwitchLocale" data-request-data="locale: 'es'">{{ 'sp'|_ }}</a></div>
+    <div class="lt-col col m3 s2"><a href="/fl" data-request="onSwitchLocale" data-request-data="locale: 'fl'">{{ 'fl'|_ }}</a></div>
+</li>
 </ul>
 <ul id="mobile-menu" class="side-nav">
-<li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
-<li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
-<li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">Portfolio</a></li>
-<li class="{% if this.page.id == 'contact' %}active{% endif %}"><a href="{{ 'contact'|page }}">Contact</a></li>
+<li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">{{ 'Home'|_ }}</a></li>
+<li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">{{ 'About'|_ }}</a></li>
+<li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">{{ 'Portfolio'|_ }}</a></li>
+<li class="{% if this.page.id == 'contact' %}active{% endif %}"><a href="{{ 'contact'|page }}">{{ 'Contact'|_ }}</a></li>
+<li>
+  <div class="lt-col col m1 s2">|</div>
+  <div class="lt-col col m3 s2"><a href="/en" data-request="onSwitchLocale" data-request-data="locale: 'en'">{{ 'en'|_ }}</a></div>
+  <div class="lt-col col m3 s2"><a href="/es" data-request="onSwitchLocale" data-request-data="locale: 'es'">{{ 'sp'|_ }}</a></div>
+  <div class="lt-col col m3 s2"><a href="/fl" data-request="onSwitchLocale" data-request-data="locale: 'sp'">{{ 'fl'|_ }}</a></div>
+</li>
 </ul>
+
 </div>
+
 </div>
 </nav></div>
